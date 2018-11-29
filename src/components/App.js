@@ -1,6 +1,7 @@
 import React from 'react';
 import VideoListContainer from '../containers/VideoListContainer.js';
 import VideoPlayerContainer from '../containers/VideoPlayerContainer.js';
+import SearchContainer from '../containers/SearchContainer.js'
 import Nav from './Nav.js';
 import VideoPlayer from './VideoPlayer.js';
 import VideoList from './VideoList.js';

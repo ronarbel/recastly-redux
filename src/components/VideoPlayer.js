@@ -1,6 +1,8 @@
 import React from 'react';
 
-var VideoPlayer = ({video}) => (
+var VideoPlayer = ({video}) => {
+  console.log('VideoPlayer.js, called from VPContainer', video)
+  return(
   !video
     ? <div className="video-player">Please wait...</div>
     : <div className="video-player">
@@ -13,6 +15,7 @@ var VideoPlayer = ({video}) => (
       </div>
     </div>
 );
+}
 
 // PropTypes tell other developers what `props` a component expects
 // Warnings will be shown in the console when the defined rules are violated
